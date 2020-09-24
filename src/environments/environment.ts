@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  baseUrl: "http://localhost:3000/"
-  // baseUrl: "https://shawn-project-list-api.herokuapp.com/""
+  // baseUrl: "http://localhost:3000/"
+  baseUrl: "https://shawn-project-list-api.herokuapp.com/"
 };
 
 

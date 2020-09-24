@@ -7,6 +7,8 @@ import { BoardsComponent } from './boards/boards.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -16,8 +18,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgbModule
   ],
   providers: [],
