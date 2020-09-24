@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "trello-board-frontend"
+    }
+  },
+  "defaultProject": "trello-board-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
