@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#"><h3>Projects</h3></a>
-  <ul class="nav navbar-nav ml-auto">
-    <button type="button" class="btn btn-primary btn-sm">boards</button>
-    <button type="button" class="btn btn-primary btn-sm">add board</button>
+  <ul class="nav navbar-nav ml-auto" *ngIf="!boardPage">
+    <button type="button" class="btn btn-primary btn-sm" [routerLink]="['remove-board']">remove board</button>
+    <button type="button" class="btn btn-primary btn-sm" [routerLink]="['add-board']">add board</button>
     <button type="button" class="btn btn-primary btn-sm">archived</button>
   </ul>
 </nav>

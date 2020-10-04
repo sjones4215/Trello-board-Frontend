@@ -21,4 +21,8 @@ export class BoardsComponent implements OnInit {
         console.log(data)
       })
     }
+
+    profile(board: Board){
+        this.router.navigate(['board-page', board.id])
+      }
   }

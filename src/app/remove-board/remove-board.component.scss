@@ -8,10 +8,12 @@
   border: solid grey;
   border-width: 2px;
   margin:10px;
+}
+
+.trash-button {
+  float: right;
 
   &:hover{
     cursor: pointer;
-    background: darken($color: #000000, $amount: 0);
-    color: white;
   }
 }

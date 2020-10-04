@@ -14,8 +14,13 @@ button{
   height: 45px;
   width: 85px;
   border: none;
+  font-size: small;
 
   &:hover{
+    background: darken($color: #000000, $amount: 0)
+  }
+  .click{
     background: darken($color: #000000, $amount: 0);
+    border: none;
   }
 }
